@@ -5,5 +5,5 @@ Full stack CRUD app for accessing and managing player character sheets for table
 #### Latest LTS Node, React, Express, Knex, React Router versions
 #### Project dockerized
 #### Project has login system so that multiple users can login but see the same data for their group (separate instances would simply require different db urls)
-#### Some sort of recommendation algorithm; like the "You might also like" on Amazon; potentially use ChatGPT api to recommend something about characters
+#### Implement a custom instance of an OpenAI LLM trained on context-specific material (old dnd books and magazines) to be called by the app in one or more features
 #### The api must use Swagger API documentation
