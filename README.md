@@ -5,3 +5,4 @@ Full stack CRUD app for accessing and managing player character sheets for table
 #### Latest LTS Node, React, Express, Knex, React Router versions
 #### Project dockerized
 #### Project has login system so that multiple users can login but see the same data for their group (separate instances would simply require different db urls)
+#### Some sort of recommendation algorithm; like the "You might also like" on Amazon; potentially use ChatGPT api to recommend something about characters
