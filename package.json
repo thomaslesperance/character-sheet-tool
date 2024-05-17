@@ -2,7 +2,6 @@
   "name": "character-sheet-tool",
   "version": "1.0.0",
   "description": "Full stack CRUD app for accessing and managing player character sheets for tabletop role-playing games.",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/thomaslesperance/character-sheet-tool.git"
   },
-  "author": "",
+  "author": "Thomas L'Esperance",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thomaslesperance/character-sheet-tool/issues"
