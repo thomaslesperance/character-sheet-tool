@@ -1,27 +1,11 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
 //
-import Root from "./routes/Root";
-import ErrorPage from "./layout/ErrorPage";
-import NoteDashboard from "./routes/notes/NoteDashboard";
+import App from "./App";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Root />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "notes",
-        element: <NoteDashboard />,
-      },
-    ],
-  },
-]);
-
-ReactDOM.createRoot(document.getElementById("root")).render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <App />
   </React.StrictMode>
 );
